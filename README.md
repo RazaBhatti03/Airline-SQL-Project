@@ -46,7 +46,7 @@ Example Query:
 SELECT DISTINCT p.first_name, p.last_name
 FROM passengers p
 JOIN bookings b ON p.passenger_id = b.passenger_id
-WHERE b.travel_class = 'First';
+WHERE b.travel_class = 'First'; ```
 
 ---
 
