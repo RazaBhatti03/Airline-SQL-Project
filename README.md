@@ -39,17 +39,6 @@ The `AirLine_data_Analysis.sql` file contains 50 carefully selected SQL queries 
 
 Each query is beginner to intermediate level and is fully commented to help understand the logic. You will work on real-world tasks like finding delayed flights, counting bookings by class, showing pilot assignments, and identifying unused airports.
 
-Example Query:
-
-```sql
--- Show all passengers who booked First class
-SELECT DISTINCT p.first_name, p.last_name
-FROM passengers p
-JOIN bookings b ON p.passenger_id = b.passenger_id
-WHERE b.travel_class = 'First'; ```
-
----
-
 ##  Tools Used
 - MySQL Workbench or any SQL client
 - SQL (DDL - Data Definition Language, DML - Data Manipulation Language, DQL - Data Query Language)
