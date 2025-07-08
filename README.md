@@ -48,7 +48,9 @@ FROM passengers p
 JOIN bookings b ON p.passenger_id = b.passenger_id
 WHERE b.travel_class = 'First';
 
-## Tools Used
+---
+
+##  Tools Used
 - MySQL Workbench or any SQL client
 - SQL (DDL - Data Definition Language, DML - Data Manipulation Language, DQL - Data Query Language)
 - .sql scripting for schema creation, data insertion, and analysis
